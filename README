@@ -1,0 +1,3 @@
+Simple tool to make .png graph using matplotlib.
+The script will save input values in a csv file to import the values next time the script is fired up.
+Options include graph line width and colour, transparency, title, labels and grid.
