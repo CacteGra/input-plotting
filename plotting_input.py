@@ -49,6 +49,13 @@ def numbers(local_file, graph_number):
         print(x_number)
         if x_number == ['']:
             x_number = []
+        else:
+            last_number = 'has'
+            while last_number:
+                last_number = input('Please add x axis value (just press [enter] to quit): ')
+                if last_number == '':
+                    break
+                x_number.append(last_number)
         y_number = []
         y_number.append(input('Please add y axis value: '))
         last_number = 'has'
